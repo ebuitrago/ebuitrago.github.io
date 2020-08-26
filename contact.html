@@ -45,7 +45,6 @@
 			================================================== -->
 				<!-- Left menu links -->
 				<ul class="nav leftmenu">
-					
 					<li><a href="index.html">Home</a></li>
 					<li><a href="about.html">About me & my work</a></li>
 				</ul>
@@ -134,88 +133,60 @@
 ================================================== -->
 <div class="container">
 	<!-- Main hero unit for a primary marketing message or call to action -->
-	<div class="hero-unit">
-		<h1>Welcome to John Doe's portofolio!</h1>
-		<p>
-			 This leading paragraph helps you indentify yourself. Describe in a few words who you are and <i>what your main service is</i> to your visitors, potential customers. Hero unit is for greater impact. Carousel is optional.
-		</p>
+	<h1 class="title">Contact</h1>
+	<div class="titlelinesimple">
 	</div>
-	<!--Carousel
+	<!-- Content
 	================================================== -->
 	<div class="row">
 		<div class="span16">
-			<div id="myCarousel" class="carousel slide">
-				<div class="carousel-inner imglist">
-					<!-- Remove imglist word if you don't want gray pictures-->
-					<!-- 1st item-->
-					<div class="item">
-						<img src="img/slider/1.jpg" alt="">
-						<div class="carousel-caption">
-							<h4>First Thumbnail label</h4>
-							<p>
-								 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-							</p>
-						</div>
-					</div>
-					<!-- 2nd column-->
-					<div class="item active">
-						<img src="img/slider/2.jpg" alt="">
-						<div class="carousel-caption">
-							<h4>Second Thumbnail label</h4>
-							<p>
-								 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-							</p>
-						</div>
-					</div>
-					<!-- 3rd item-->
-					<div class="item">
-						<img src="img/slider/3.jpg" alt="">
-						<div class="carousel-caption">
-							<h4>Third Thumbnail label</h4>
-							<p>
-								 Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.
-							</p>
-						</div>
-					</div>
+			<div class="envelope">
+				<div class="envelopeleft">
+					 John Doe<br>
+					 Phone No: 0337-763-983<br>
+					 E-mail: johndoe@email.com<br>
 				</div>
-				<a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-				<a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+				<div class="form envelopeform">
+					<h4 class="envelopeformtitle">SEND ME A LETTER</h4>
+					<form method="post" action="contact.php" id="contactpageform">
+						<table>
+						<tbody>
+						<tr class="element">
+							<td class="noborder">
+							</td>
+							<td class="noborder">
+								<input type="text" name="name" class="text input-xlarge" placeholder="Name">
+							</td>
+						</tr>
+						<tr class="element">
+							<td class="noborder">
+							</td>
+							<td class="noborder">
+								<input type="text" name="email" class="text input-xlarge" placeholder="E-mail address">
+							</td>
+						</tr>
+						<tr class="element" style="vertical-align: text-top;">
+							<td class="noborder">
+							</td>
+							<td class="noborder">
+								<textarea name="comment" class="text textarea input-xlarge contactareasmall" placeholder="Dear John,"></textarea>
+							</td>
+						</tr>
+						<tr class="element">
+							<td class="noborder">
+								 &nbsp;
+							</td>
+							<td class="noborder">
+								<input type="submit" id="submitcontact" class="btn blackbg" value="Send">
+								<div class="loading">
+								</div>
+							</td>
+						</tr>
+						</tbody>
+						</table>
+					</form>
+				</div>
 			</div>
-		</div>
-	</div>
-	<br/>
-	<!-- 3 columns under carousel 
-	================================================== -->
-	<div class="row">
-		<!-- 1 column-->
-		<div class="span-one-third">
-			<h3>Professional</h3>
-			<p>
-				 Etiam porta sem malesuada magna mollis euismod. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
-			</p>
-			<p>
-				<a class="btn" href="about.html">More about me</a>
-			</p>
-		</div>
-		<!-- 2nd column-->
-		<div class="span-one-third">
-			<h3>Aesthetic</h3>
-			<p>
-				 Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimen.
-			</p>
-			<p>
-				<a class="btn" href="portofolio.html">View portofolio</a>
-			</p>
-		</div>
-		<!-- 3rd column-->
-		<div class="span-one-third">
-			<h3>Responsive</h3>
-			<p>
-				 Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis.
-			</p>
-			<p>
-				<a class="btn" href="contact.html">Get in touch</a>
-			</p>
 		</div>
 	</div>
 	<!-- Footer 
@@ -226,7 +197,8 @@
 		<div class="tweettext">
 			<div class="row">
 				<div class="span-one-third">
-					<i>Some nice words about you. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</i>
+					<div class="tweet">
+					</div>
 				</div>
 				<div class="span-one-third">
 					<div class="centermargin">
@@ -252,8 +224,7 @@
 		</div>
 	</div>
 	<div class="footer center">
-		 &copy; Copyright Your Name 2015.<br/>
-		 Template by WowThemesNet.
+		 &copy; Copyright Your Name 2015
 	</div>
 </div>
 <!-- Ended Container-->
